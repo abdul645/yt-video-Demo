@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(maxresdefault.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    
+}
+.menu-bar
+{
+    
+    height: 60px;
+    letter-spacing: 90px;
+    text-align: center; 
+}
+.btn
+{
+    border: 1px solid #3498db;
+    padding: 7px 10px 7px 10px;
+    background: none;
+    margin: 13px;
+    font-size: 20px;
+    font-family: serif;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+    overflow: hidden;
+
+}
+.btn1 , .btn2 , .btn3
+{
+    color: #3498db;
+}
+.btn4, .btn5
+{
+    color: #fff;
+}
+.btn1:hover , .btn2:hover , .btn3:hover 
+{
+    color:#fff;
+}
+.btn4:hover , .btn5:hover{
+    color: #3498db;
+}
+.btn::before
+{
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 1s;
+}
+.btn1::before, .btn3::before , .btn5::before
+{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+.btn2::before, .btn4::before
+{
+    bottom: 0;
+    border-radius: 50% 50% 0 0 ;
+}
+.btn4::before, .btn5::before
+{
+    height: 180%;
+}
+.btn1:hover::before, .btn2:hover::before, .btn3:hover::before
+{
+    height: 180%;
+}
+.btn4:hover::before, .btn5:hover::before{
+    height: 0%;
+}
+hr{
+    width: 98%;
+    background-color: rgb(9, 6, 6);
+    margin-left: 1%;
+    align-items: center;
+    padding-left: 0%;
+}
+
+h1{
+    font-size: 50px;
+    padding-top: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* html */
+.htm
+{
+    margin: 20px 0px 20px 0px;
+}
+.sp1
+{
+    font-size: 40px;
+    margin-left: 10px;
+    color: brown;
+    text-shadow: 2px 2px 4px rgb(69, 65, 65);
+}
+.div1{
+    margin-bottom: 20px;
+}
+.ifht1{
+    margin-left: 10px;
+}
+.ifht2
+{
+    margin-left: 10px;
+}
+.ifht3
+{
+    margin-left: 10px;
+}
+.div2{
+    margin-bottom: 20px;
+}
+.ifht4
+{
+    margin-left: 10px;
+}
+.ifht5
+{
+    margin-left: 10px;
+}
+.ifht6
+{
+    margin-left: 10px;
+}
+.div3{
+    margin-bottom: 20px;
+}
+.ifht7
+{
+    margin-left: 10px;
+}
+.ifht8
+{
+    margin-left: 10px;
+}
+.ifht9
+{
+    margin-left: 10px;
+}
+.div4{
+    margin-bottom: 50px;
+}
+.ifht10
+{
+    margin-left: 10px;
+}
+.ifht11
+{
+    margin-left: 10px;
+}
+.ifht12
+{
+    margin-left: 10px;
+}
+
+
+/* CSS */
+.csss
+{
+    margin:20px 0px 20px 0px;
+}
+.sp2
+{
+    font-size: 40px;
+    margin-left: 10px;
+    color: brown;
+    text-shadow: 2px 2px 4px rgb(69, 65, 65);
+}
+.div5
+{
+    margin-bottom: 20px;
+}
+.ifcs1
+{
+    margin-left: 10px;
+}
+.ifcs2
+{
+   margin-left: 10px;
+}
+.ifcs3
+{
+    margin-left: 10px;
+}
+.div6
+{
+    margin-bottom: 20px;
+}
+.ifcs4
+{
+    margin-left: 10px;
+}
+
+.ifcs5
+{
+    margin-left: 10px;
+}
+
+.ifcs6
+{
+    margin-left: 10px;
+}
+.div7{
+    margin-bottom: 20px;
+}
+.ifcs7
+{
+    margin-left: 10px;
+}
+
+.ifcs8
+{
+    margin-left: 10px;
+}
+
+.ifcs9
+{
+    margin-left: 10px;
+}
+
+.ifcs10
+{
+    margin-left: 10px;
+}
+
+.ifcs11
+{
+    margin-left: 10px;
+}
+
+.ifcs12
+{
+    margin-left: 10px;
+}
+
+
